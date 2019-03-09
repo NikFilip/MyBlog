@@ -1,0 +1,51 @@
+h1 {color: rgba(255,  0,  0, 0.93);
+	font-family: Georgia, "Times New Roman", Times, serif; }
+h3 {color: rgba(255, 213, 0, 0.79);} 
+
+/* Enlarges the pictures once you hover over them*/
+figcaption.popup {
+	position: absolute;
+	visibility: hidden;
+	}
+figure.thumbnail:hover figcaption.popup{
+	top: 0;
+	left: 0;
+	visibility: visible;
+	}
+
+
+/*for each of the picture in the album pages*/
+figure{
+	padding: 2%;
+	float: left;
+	background-color: rgba(255,  163,  0, 0.16);
+	}
+figcaption{
+	width: 260px;
+	}
+.row{
+	clear:left;
+	}
+	
+/* Transparent yellow block background*/
+.tranBlock_div {
+		width: 92%;
+		background-color: rgba(255,  163,  0, 0.16);
+		text-align: left;
+		padding: 5px;
+	}
+
+body { 
+  margin-left: 2%; margin-right: 2%; 
+  font-family: arial,Helvetica,
+        sans-serif;
+  color: white;
+  background-image: url("../Images/Backgrounds/wood.jpg");
+  background-attachment: fixed;
+}
+
+/*changes the color of links*/      
+a:link {
+    color: rgba(255, 255, 0, 0.88) }
+a:visited {
+    color: rgba(255, 174, 0, 0.91) } 

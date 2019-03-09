@@ -1,0 +1,21 @@
+.nav_div{
+	position: absolute;
+	top: 115px;
+	left: 18px;
+	
+}
+
+body {	
+  padding-left: 100px;
+  padding-right: 5%;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: white;
+  background-image: url("../Images/Backgrounds/wood.jpg");
+  background-attachment: fixed;
+ }    
+  a:link {
+    color: yellow }
+  a:visited {
+    color: orange } 
+

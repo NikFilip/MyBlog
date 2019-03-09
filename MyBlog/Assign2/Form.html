@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+   <title>Subscription</title>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   <link rel="stylesheet" href="../CSS/myStyle.css"> 
+</head>
+
+<body>
+	<div class = tranBlock_div>
+	<form action="http://www.cosc.brocku.ca/Offerings/2P89/Examples/Forms/processformget.php" method="get">
+	<fieldset><legend>Subscribe!</legend>
+	    <p> 
+		    <b> Subscribe to get email notifications when a new post is added to the site </b>
+		</p>
+		<p>
+	       <label> 
+	       		Name: <br/>
+	       		<input type="text" name="aname" size="20" />
+	       </label>
+	       <br />    
+		   <label> 
+		   		Email: <br />
+		   		<input type="text" name="anaddress" size="40" /> 
+		   </label>
+		</p>
+		<p>   
+		   <input type = "radio" name = "gender" value="male" checked> Male <br>
+		   <input type = "radio" name = "gender" value= "female"> Female <br>
+		   <input type = "radio" name = "gender" value= "other"> Other<br>
+		</p>
+		
+		<p>
+			Please leave any comments you may have about the site: <br>
+			<label>
+				<textarea name = "Comments" rows = "5" cols="40">
+				
+				</textarea>
+			</label>
+		</p>
+					
+		</fieldset>	
+		</div>
+		<p>
+	       <input type="submit" value="Submit" />
+	       <input type="reset" value="Reset" />
+	    </p>
+	</form>
+</body>
